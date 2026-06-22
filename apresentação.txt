@@ -1,0 +1,60 @@
+APRESENTAÇÃO 
+1. Struct (onde os dados do aluno são guardados)
+struct Aluno {
+    string nome;
+    float nota1;
+    float nota2;
+    float nota3;
+    float media;
+};
+O que falar:
+
+A struct funciona como uma ficha de aluno. Ela guarda o nome, as notas
+ e a média de cada estudante.
+
+
+2. Vetor de Alunos
+Aluno alunos[MAX_ALUNOS];
+O que falar:
+
+O vetor é usado para armazenar todos os alunos cadastrados no sistema.
+
+
+
+3. Função de Cálculo da Média
+float calcularMedia(float n1, float n2, float n3) {
+    return (n1 + n2 + n3) / 3;
+}
+O que falar:
+
+Esta função recebe as três notas do aluno e calcula a média automaticamente.
+
+
+
+4. Cadastro de Alunos
+void cadastrarAluno()
+O que falar:
+
+Esta função permite que o usuário digite o nome e as notas do aluno.
+ Depois disso, os dados são armazenados no sistema.
+
+
+
+5. Condicional (aprovação e reprovação)
+if (alunos[i].media >= 7)
+O que falar:
+
+Essa condição verifica se o aluno foi aprovado. Se a média for maior ou 
+igual a 7, ele é aprovado; caso contrário, é reprovado.
+
+
+
+6. Menu Principal
+switch(opcao)
+O que falar:
+
+O menu principal controla todas as funcionalidades do sistema. Dependendo da 
+opção escolhida pelo usuário, uma função diferente é executada.
+
+
+
